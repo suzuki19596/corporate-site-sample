@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Site Sample - Design System</title>
+    <meta name="description" content="26サイト分析に基づくコーポレートサイトサンプル">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- スキップリンク -->
+    <a href="#main-content" class="skip-link">メインコンテンツへスキップ</a>
+
+    <!-- ヘッダー -->
+    <header class="header" role="banner">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="ホームに戻る">CORPORATE</a>
+            <nav class="nav" role="navigation" aria-label="メインナビゲーション">
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">サービス</a></li>
+                    <li><a href="#achievements" class="nav-link">実績</a></li>
+                    <li><a href="#about" class="nav-link">会社概要</a></li>
+                    <li><a href="#contact" class="nav-link">お問い合わせ</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main id="main-content">
+        <!-- ヒーロー -->
+        <section class="hero" role="region" aria-label="ヒーロー">
+            <div class="hero-content">
+                <h1 class="hero-title">ビジネスを次のステージへ</h1>
+                <p class="hero-subtitle">デジタル変革を通じて、企業の成長を加速させるパートナー</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+                    <a href="#services" class="btn btn-secondary">サービスを見る</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- サービス -->
+        <section id="services" class="section services">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">サービス</h2>
+                    <p class="section-subtitle">お客様のビジネス課題を解決する包括的なソリューション</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">🚀</div>
+                        <h3 class="service-title">戦略コンサルティング</h3>
+                        <p class="service-description">ビジネス戦略の立案から実行まで、経営層と伴走しながら企業成長を支援します。</p>
+                    </article>
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">💡</div>
+                        <h3 class="service-title">デジタル変革</h3>
+                        <p class="service-description">最新のデジタル技術を活用し、業務効率化とビジネスモデル革新を実現します。</p>
+                    </article>
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">📊</div>
+                        <h3 class="service-title">データ分析</h3>
+                        <p class="service-description">ビッグデータとAIを活用した高度な分析で、意思決定を支援します。</p>
+                    </article>
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">🎨</div>
+                        <h3 class="service-title">ブランディング</h3>
+                        <p class="service-description">企業の価値を最大化する一貫したブランド戦略を構築します。</p>
+                    </article>
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">⚙️</div>
+                        <h3 class="service-title">システム開発</h3>
+                        <p class="service-description">スケーラブルで保守性の高いシステムをアジャイル開発手法で提供します。</p>
+                    </article>
+                    <article class="service-card" data-animate>
+                        <div class="service-icon" aria-hidden="true">🛡️</div>
+                        <h3 class="service-title">セキュリティ</h3>
+                        <p class="service-description">企業の重要な情報資産を守る包括的なセキュリティソリューションを提供します。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 実績 -->
+        <section id="achievements" class="section achievements">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">実績</h2>
+                    <p class="section-subtitle">数字で見る私たちの成果</p>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-item" data-animate>
+                        <div class="achievement-number">500+</div>
+                        <div class="achievement-label">プロジェクト実績</div>
+                    </div>
+                    <div class="achievement-item" data-animate>
+                        <div class="achievement-number">98%</div>
+                        <div class="achievement-label">顧客満足度</div>
+                    </div>
+                    <div class="achievement-item" data-animate>
+                        <div class="achievement-number">15年</div>
+                        <div class="achievement-label">業界経験</div>
+                    </div>
+                    <div class="achievement-item" data-animate>
+                        <div class="achievement-number">200+</div>
+                        <div class="achievement-label">クライアント企業</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section cta">
+            <div class="section-container">
+                <h2 class="cta-title">一緒に未来を創造しませんか</h2>
+                <p class="cta-description">まずはお気軽にご相談ください</p>
+                <a href="#contact" class="btn btn-primary">無料相談を予約する</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>CORPORATE</h3>
+                <p style="color: rgba(255,255,255,0.7); line-height: 1.8;">
+                    デジタル変革を通じて、<br>
+                    企業の成長を加速させる<br>
+                    パートナー
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>サービス</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">戦略コンサルティング</a></li>
+                    <li><a href="#" class="footer-link">デジタル変革</a></li>
+                    <li><a href="#" class="footer-link">データ分析</a></li>
+                    <li><a href="#" class="footer-link">ブランディング</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>会社情報</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">会社概要</a></li>
+                    <li><a href="#" class="footer-link">採用情報</a></li>
+                    <li><a href="#" class="footer-link">お知らせ</a></li>
+                    <li><a href="#" class="footer-link">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>法的情報</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">プライバシーポリシー</a></li>
+                    <li><a href="#" class="footer-link">利用規約</a></li>
+                    <li><a href="#" class="footer-link">特定商取引法</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 CORPORATE. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
